@@ -1,0 +1,4 @@
+chips:10
+cake:4
+donuts:6
+munchkins:12
