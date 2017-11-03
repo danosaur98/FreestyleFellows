@@ -76,7 +76,7 @@ for line in food_raw:
 budget = 12
 
 # splits budget into money spent on food and drink
-budget_food_proportion = 0.75
+budget_food_proportion = 0
 food_budget = int(budget_food_proportion * budget)
 drinks_budget = budget - food_budget
 
@@ -124,4 +124,5 @@ def optimize(item_type, index, budget_remaining):
         return memo[index][budget_remaining]
 
 
-print(optimize("food", 0, food_budget))
+#print("Food: " + str(optimize("food", 0, food_budget)))
+print("Drinks:" + str(optimize("drinks", 0, drinks_budget)))
