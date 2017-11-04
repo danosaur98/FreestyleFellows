@@ -1,4 +1,5 @@
-chips:10
-cake:4
-donuts:6
-munchkins:12
+water:1
+milk:2
+soda:3
+beer:5
+orange juice:2

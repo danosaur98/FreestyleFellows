@@ -1,4 +1,5 @@
-Chips:10
-Cake:4
-Donuts:6
-Munchkins:12
+pizza:10
+chips:4
+cake:5
+cookies:1
+cupcakes:1

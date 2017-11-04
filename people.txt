@@ -1,6 +1,9 @@
-Daniel Zhou
-chips,chips,chips,chips,chips,chips,chips,chips,chips,chips,cake,cake,cake,cake,cake,cake,cake
-water
-Steve Carell
-donuts,donuts,donuts,donuts,donuts,munchkins
-7 up, Sprite, beer, wine, cranberry juice
+P1
+water,milk,soda
+pizza,chips,cake
+P2
+water,orange juice
+chips,cake,pizza
+P3
+water,beer
+cookies,cupcakes,pizza
