@@ -1,5 +1,5 @@
 # FreeStyle Fellows Application 2018
-##Github Link:
+## Github Link:
 https://github.com/danosaur98/FreestyleFellows
 
 ### Problem statement:
@@ -17,14 +17,14 @@ Your answer should include an explanation of your algorithm, test cases, and a s
 Feel free to use any data structures and packages or create your own. Submit all your files in a zipped directory (which can include a link to your GitHub repository of this challenge).
 
 # Algorithmic Design
-##Loading the Data
+## Loading the Data
 First, all the appropriate data is loaded. ```people``` is a list of all the guests (not used to solve the problem).
 ```drinks_popularity``` is a dictionary with each drink as a key and the total number of times it has been requested as the respective value.
 ```drinks_cost``` is a dictionary with each drink as a key and its cost as the respective value.
 ```food_popularity``` and ```food_cost``` is the same as ```drinks_popularity``` and ```drinks_cost``` respectively, but for foods.
 ```drinks_list``` and ```foods_list``` are the keys of their respective popularity dictionaries formatted as a list. This is to index each item, since you can't access dictionary keys by index. 
 
-##Dynamic Programming
+## Dynamic Programming
 Since the question is recursive in nature with several repeated states, dynamic programming is used to optimize the solution.
 
 The budget is split into money spent on food and money spent on drinks. The current proportion of the budget spent on food is 75%, but this can be easily changed in the code.
