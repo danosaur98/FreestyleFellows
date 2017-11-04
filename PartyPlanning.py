@@ -15,7 +15,6 @@ def optimize(item_type, index, budget_remaining):
 
     if index == len(
             l) or budget_remaining == 0:  # if all the items have been examined or all the money has been spent, return an empty list
-        # return ItemList([], 0, 0)
         return 0
     elif memo[index][budget_remaining]:  # if we have previously visited this case, return the answer
         return memo[index][budget_remaining]

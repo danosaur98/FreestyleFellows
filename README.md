@@ -1,6 +1,8 @@
 # FreeStyle Fellows Application 2018
+##Github Link:
+https://github.com/danosaur98/FreestyleFellows
 
-Problem statement:
+### Problem statement:
 
 You are planning a party for an arbitrary number of people and you need to buy drinks and food. Assume you’re given a budget (integer) and 3 files: 'people.txt', 'drinks.txt', 'food.txt'.
 
@@ -47,8 +49,9 @@ Each entry in the memo table takes O(1) time to calculate. There are n*B possibl
 B is the budget given. Thus, the worst case time complexity of the algorithm is O(Bn).
 
 ## Assumptions
-* Every item requested in people.txt is given a cost in either food.txt or drinks.txt
-* Items are indistinguishable by upper/lowercase
+* Every item requested in people.txt is given a cost in either food.txt or drinks.txt.
+* Items are indistinguishable by upper/lowercase.
+* Costs are integers.
 
 ## Test Cases
 ### Input
